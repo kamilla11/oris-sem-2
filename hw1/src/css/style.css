@@ -1,0 +1,29 @@
+body {
+  padding: 20;
+}
+
+.dogCard {
+  height: 100%;
+}
+
+.header {
+  text-align: center;
+  color: #fff;
+  height: 64;
+  padding-inline: 50;
+  line-height: 64px;
+  font-size: 3em;
+  background-color: #eba134;
+}
+
+.content {
+  text-align: center;
+  min-height: 120;
+  line-height: 120px;
+}
+
+.error {
+  color: red;
+}
+
+@import url(spinner.css);
