@@ -1,0 +1,62 @@
+body {
+  padding: 20;
+}
+
+.dogCard {
+  height: 100%;
+}
+
+.dogHeader.ant-layout-header {
+  text-align: center;
+  color: #fff;
+  height: 64;
+  padding-inline: 50;
+  line-height: 64px;
+  font-size: 3em;
+  background-color: #eba134;
+}
+
+.content {
+  text-align: center;
+  min-height: 120;
+  line-height: 120px;
+}
+
+.error {
+  color: red;
+}
+
+.mailForm {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+input,
+textarea {
+  display: block;
+  width: 20rem;
+  height: 2rem;
+  padding: 0.5rem;
+  font-size: 1.1em;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+button {
+  border: none;
+  padding: 1rem;
+  width: 21.2rem;
+  font-size: 1.2em;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  background-color: #eba134;
+}
+button:hover {
+  background-color: #cb600d;
+}
+.message {
+  font-size: 1.2em;
+  text-align: center;
+  color: #36a936;
+}
+
+@import url(spinner.css);
